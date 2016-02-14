@@ -1,0 +1,10 @@
+main: me.confuser.tag.Tag
+name: Tag
+version: ${project.version}
+authors: [ confuser ]
+depend: [ Essentials ]
+commands:
+  tag:
+    description: "Tag information"
+    usage: "/tag"
+    permission: tag.command
